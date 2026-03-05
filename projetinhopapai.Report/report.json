@@ -25,7 +25,17 @@
       "filters": "[]",
       "height": 720.00,
       "name": "a52baf34202cebab034e",
-      "visualContainers": [],
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"60bfce74e62ca5e2e308\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":280.1215805471125,\"height\":280.1215805471125,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Sum(DADOS_ATIVIDADE.budget)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DADOS_ATIVIDADE\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"budget\"}},\"Function\":0},\"Name\":\"Sum(DADOS_ATIVIDADE.budget)\",\"NativeReferenceName\":\"Soma de budget\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"budget\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.12,
+          "width": 280.12,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
       "width": 1280.00
     }
   ]
